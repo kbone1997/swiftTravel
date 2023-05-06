@@ -1,0 +1,36 @@
+swift travel:
+
+#tourist_spot
+
+INSERT INTO tourist_spot(d_id,d_name,description, pic)
+VALUES(1,'Dhaka City','Dhaka, also spelled Dacca, city and capital of Bangladesh. It is located just north of the Buriganga River, a channel of the Dhaleswari River, in the south-central part of the country. Dhaka is Bangladesh''s most populous city and is one of the largest metropolises in South Asia.','./image/lalbag.jpg')
+
+INSERT INTO tourist_spot(d_id,d_name,description, pic)
+VALUES(2,'Cox''s Bazar','It is famous mostly for its long natural sandy beach. It is located 150 km (93 mi) south of the city of Chittagong. Cox Bazar is also known by the name Panowa, which translates literally as "yellow flower".','./image/Inani Beach.jpg')
+
+INSERT INTO tourist_spot(d_id,d_name,description, pic)
+VALUES(3,'Bandarban','Bandarban is a district in South-Eastern Bangladesh, Coordinates is 22.20N 92.35E, and a part of the Chittagong Division and Chittagong Hill Tracts. ... The newly reported highest peak of Bangladesh - Saka Haphong (3488 ft) is also here in Thanchi upazila','./image/Nafakhum_Waterfall.jpg')
+
+
+#places to visit
+
+INSERT INTO places_to_visit(d_id,place_name,place_pic,Tourist_Spotd_id)
+VALUES(1,'Ahsan Manzil','./image/ahsan_monjil.jpg',1)
+INSERT INTO places_to_visit(d_id,place_name,place_pic,Tourist_Spotd_id)
+VALUES(1,'Sonargaon','./image/panam_city.jpg',1),
+      (1,'Bangladesh National Museum','./image/national_mus.jpg',1);
+
+
+#hotel
+INSERT INTO room_booking(h_id,h_name,room_id,price,availability,Tourist_Spotd_id)
+VALUES (1,'Hotel Seven Star',101,1050,'Yes',1),
+(2,'Hotel Seven Star',102,700,'Yes',1),
+(3,'Hotel Seven Star',103,1350 ,'Yes',1);
+      
+	  
+#thingsto do
+INSERT INTO things_to_do(ttd_id,description,d_id)
+VALUES (1,'Hiking Trails',3),
+       (2,'Hiking Trails',7),
+       (3,'Hiking Trails',9);	  
+	  

@@ -1,0 +1,17 @@
+Group name: Loyality is Royality
+
+Project name: Swift Travel
+
+Group members details:
+
+Name: Tasmin Sanjida
+Id: 011182044
+
+Name: Ayeasha Akter
+Id: 011182071
+
+Name: Md. Hedayetur Rahman
+Id: 011182065
+
+Name: Doha Khan Mazlish
+Id: 011182068
